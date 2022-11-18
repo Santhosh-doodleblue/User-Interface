@@ -1,0 +1,32 @@
+.about {
+  background: rgba(0, 0, 0, 0.5) url("../images/laptop2.jpeg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 600px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.laptop-container {
+  width: 800px;
+  height: 390px;
+  border: 1px solid #ffffff;
+  padding: 25px;
+  text-align: center;
+}
+.laptop-container h5 {
+  color: #ff214f;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  padding-top: 50px;
+}
+.laptop-container h2 {
+  font-size: 2.9rem;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  line-height: 1.2;
+  font-weight: 500;
+}
