@@ -6,7 +6,6 @@
   background-position: 50% 50%;
   height: 600px;
   object-fit: cover;
-  vertical-align: middle;
 }
 .laptop-container {
   width: 800px;
@@ -21,12 +20,13 @@
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   padding-top: 50px;
+  font-size: 1.125rem;
 }
 .laptop-container h2 {
-  font-size: 2.9rem;
+  font-size: 3rem;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   margin-top: 25px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: bold;
 }

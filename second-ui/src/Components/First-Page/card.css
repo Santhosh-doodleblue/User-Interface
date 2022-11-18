@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght;Open+Sans:wght@400@700&display=swap");
 
-.card1 {
+.design {
   width: 275px;
   height: 380px;
   background-color: #fefefe;
@@ -11,10 +11,10 @@
   position: relative;
   margin: 5px 15px;
 }
-.card1 span {
+.design span {
   text-align: center;
 }
-.card1 h5 {
+.design h5 {
   background-color: #ff214f;
   padding-bottom: 15px;
   font-weight: 300;
@@ -22,14 +22,14 @@
   color: #fefefe;
   font-size: 60px;
 }
-.card1 h4 {
+.design h4 {
   font-weight: 700;
   font-size: 1.125rem;
   font-family: "Raleway", sans-serif;
   padding-top: 20px;
   padding-bottom: 10px;
 }
-.card1 p {
+.design p {
   font-family: "Open Sans", sans-serif;
   line-height: 1.8;
   font-style: italic;
@@ -40,17 +40,4 @@
   position: absolute;
   top: 740px;
   right: 75px;
-}
-@media only screen and (max-width: "575px") {
-  .card1 {
-    width: 90%;
-    height: 200px;
-    background-color: #fefefe;
-    border: 0.5px solid rgb(190, 189, 189);
-    margin-left: 25px;
-
-    padding: 30px 10px 35px 10px;
-    position: relative;
-    margin: 5px 25px;
-  }
 }

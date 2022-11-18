@@ -4,8 +4,8 @@ import { GiPriceTag, GiPencilBrush } from "react-icons/gi";
 import { BiHappy } from "react-icons/bi";
 import "./card.css";
 
-function Card() {
-  const datas = [
+const Pixel = () => {
+  const data = [
     {
       icon: <GiPencilBrush />,
       title: "Pixel Perfect Design",
@@ -29,19 +29,19 @@ function Card() {
   ];
   return (
     <div className="container px-5 d-flex up">
-      {datas.map((data) => {
+      {data.map(({ icon, title, text }) => {
         return (
-          <div className="card1 text-center ">
+          <div className="design text-center ">
             <span>
-              <h5>{data.icon}</h5>
+              <h5>{icon}</h5>
             </span>
-            <h4>{data.title}</h4>
-            <p>{data.text}</p>
+            <h4>{title}</h4>
+            <p>{text}</p>
           </div>
         );
       })}
     </div>
   );
-}
+};
 
-export default Card;
+export default Pixel;

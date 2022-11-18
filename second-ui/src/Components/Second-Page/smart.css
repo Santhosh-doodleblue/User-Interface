@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@400;300;500;700&display=swap");
 
 .smart-img {
   background-image: url("../images/second.jpeg");
@@ -45,7 +45,7 @@ main-row {
 
   text-align: center;
 }
-.row1 {
+.creative {
   margin: 20px 0;
   width: 290px;
   background-color: #f2f2f2;
@@ -55,19 +55,19 @@ main-row {
   padding-left: 20px;
   margin-right: 10px;
 }
-.row1 h6 {
+.creative h6 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
 }
-.row1 p {
+.creative p {
   font-size: 0.875rem;
   font-style: italic;
   margin: 20px 0 0;
 
   line-height: 1.8;
 }
-.row2 {
+.clean {
   margin: 20px 0;
   margin-left: 10px;
   width: 290px;
@@ -76,12 +76,12 @@ main-row {
   padding-top: 100px;
   padding-left: 20px;
 }
-.row2 h6 {
+.clean h6 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1.1rem;
 }
-.row2 p {
+.clean p {
   font-size: 0.875rem;
   font-style: italic;
   margin: 20px 0 0;
@@ -96,38 +96,41 @@ main-row {
   margin-bottom: 100px;
 }
 .image-row {
-  width: 33.3%;
+  width: 25%;
 }
-.image-row2 {
-  width: 33.3%;
+.image-build {
+  width: 25%;
   height: 300px;
 
   padding: 15px;
 }
-.image-row2 h5 {
+.image-build h5 {
   color: #ff214f;
-  padding-top: 35px;
+  padding-top: 45px;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   letter-spacing: 1px;
   font-size: 1.15rem;
 }
-.image-row2 h4 {
+.image-build h4 {
   font-size: 1.25rem;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   margin-bottom: 20px;
   margin-top: 15px;
 }
-.image-row2 p {
+.image-build p {
   color: #808080;
   font-family: "Open Sans", sans-serif;
   line-height: 1.8;
   font-size: 0.875rem;
   font-style: italic;
 }
-.image-row2 a {
+.image-build a {
   text-decoration: none;
+  padding-left: 3px;
+
+  font-size: 1.1rem;
   color: #ff214f;
 }
 .dark-image {

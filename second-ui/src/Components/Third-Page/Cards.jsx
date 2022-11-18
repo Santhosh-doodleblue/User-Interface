@@ -1,7 +1,7 @@
 import React from "react";
 import "./cards.css";
 
-function Cards() {
+const Project = () => {
   const images = [
     {
       img: "./card-images/five.jpeg",
@@ -43,6 +43,6 @@ function Cards() {
       </div>
     </div>
   );
-}
+};
 
-export default Cards;
+export default Project;

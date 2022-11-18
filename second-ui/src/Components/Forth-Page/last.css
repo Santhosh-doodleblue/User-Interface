@@ -9,7 +9,7 @@
 .last-container {
   width: 600px;
   height: 100vh;
-
+  padding-left: 50px;
   margin-left: 150px;
   padding-top: 75px;
 }
@@ -33,13 +33,13 @@
   margin: 30px 0;
   margin-right: 75px;
 }
-.best-col1 {
+.speed {
   margin-top: 75px;
 
   margin-right: 75px;
 }
 .best-col h6,
-.best-col1 h6 {
+.speed h6 {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;
   font-weight: bold;
@@ -47,7 +47,7 @@
   font-size: 1.1rem;
 }
 .best-col p,
-.best-col1 p {
+.speed p {
   font-family: "Open Sans", sans-serif;
   line-height: 1.8;
   font-size: 0.825rem;
